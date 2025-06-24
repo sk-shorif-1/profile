@@ -1,0 +1,133 @@
+
+
+
+.open-sans-normal-font {
+font-family: "Open Sans", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+font-variation-settings:
+"wdth" 100;
+}
+.mary-color{
+    color: rgb(253, 110, 10);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 230px 0 226px;
+}
+header{
+    margin-bottom: 200px;
+}
+/* shared-style */
+.btn-primary{
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    border: none;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color:rgb(24, 24, 24);
+}
+.section-dc{
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.data-infu{
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+/* nav-section */
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+nav ul li{
+    margin: 50px;
+}
+nav ul li a{
+    color:rgb(71, 71, 71) ;
+    text-decoration: none;
+    
+}
+.mary{
+    font-family: Open Sans;
+font-size: 45px;
+font-weight: 800;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+}
+.mary-hardy{
+    color: rgb(24, 24, 24);
+
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 0;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.hi{
+    color: rgb(71, 71, 71);
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 0;
+    letter-spacing: 0%;
+    text-align: left;
+}
+/* cv-part */
+.cv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 38px 0 230px;
+}
+header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+    background-color: rgb(255, 248, 243);
+    
+}
+/* main-styles */
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* about-part */
+.adress{
+    display: flex;
+    justify-content: space-around;
+}
+.about{
+    text-align: center;
+    background-color: rgb(255, 248, 243);
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inside-about{
+    background-color: rgb(255, 255, 255);
+    width: 827px;
+}
