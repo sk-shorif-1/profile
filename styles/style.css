@@ -220,3 +220,45 @@ main{
     text-align: left;
     margin-top: 0px;
 }
+/* from-section */
+.footer-section{
+    height: 780px;
+    width: auto;
+    padding: 130px 230px;
+    background-color:#FFF8F3;
+}
+
+.form-container{
+    display: flex;
+}
+.contact{
+    width:562px;
+    margin-right:58.5px;
+}
+.form{
+    width: 461px;
+    margin-left:58.5px;
+}
+.name-email{
+    width: 397px;
+    height: 64px;
+    margin-bottom:24px;
+    padding: 18px 30px;
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.massage{
+    width: 429px;
+    height: 180px;
+    padding:18px 0 0 30px;
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
